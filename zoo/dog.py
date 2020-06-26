@@ -11,7 +11,7 @@ dog = api.model(
 )
 
 DOGS = [
-    {"id": "medor", "name": "Medor"},
+    {"id": "fido", "name": "Fido"},
 ]
 
 
