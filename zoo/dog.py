@@ -2,6 +2,11 @@ from flask_restx import Namespace, Resource, fields
 
 api = Namespace("dogs", description="Dogs related operations")
 
+"""
+Keeping the Dog section of the API as is, as a reference to having multiple namespaces for the
+Swagger API. In theory this should be fleshed out much like the Cat API.
+"""
+
 dog = api.model(
     "Dog",
     {
